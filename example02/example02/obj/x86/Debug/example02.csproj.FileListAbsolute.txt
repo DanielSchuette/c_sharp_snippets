@@ -1,0 +1,5 @@
+/home/daniel/code/cs_src/examples/example02/example02/bin/Debug/example02.exe
+/home/daniel/code/cs_src/examples/example02/example02/bin/Debug/example02.pdb
+/home/daniel/code/cs_src/examples/example02/example02/obj/x86/Debug/example02.csproj.CoreCompileInputs.cache
+/home/daniel/code/cs_src/examples/example02/example02/obj/x86/Debug/example02.exe
+/home/daniel/code/cs_src/examples/example02/example02/obj/x86/Debug/example02.pdb
