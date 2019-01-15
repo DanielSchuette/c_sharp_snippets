@@ -7,20 +7,15 @@ namespace example02
         public static void Main(string[] args)
         {
             /* one way to instantiate an object */
-            MyFirstClass book1 = new MyFirstClass();
-            book1.title = "my book";
-            book1.author = "me";
-            book1.pages = 42; /* what else? */
+            MyFirstClass book1 = new MyFirstClass("my book", "me", 42);
 
-            /* another way to instantiate an object */
-            MyFirstClass book2 = new MyFirstClass
-            {
-                title = "my second book",
-                author = "me (of course)",
-                pages = 43,
-            };
-            Console.WriteLine(book1.title);
-            Console.WriteLine(book2.author);
+            Console.WriteLine(book1.Title);
+            /* 
+             * A "non-static" method that must be called on 
+             * a specific instance of the class. Static methods
+             * can be called without instantiating an object.
+             */
+            book1.PrintMe();
         }
     }
 }
