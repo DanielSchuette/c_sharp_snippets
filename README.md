@@ -14,3 +14,6 @@ To run an executable file, type
 ```bash
 $mono <project_name>.exe
 ```
+
+## Repository
+All programs in this repository were build using the latest Flatpak version of [MonoDevelop for Fedora](https://fedoraproject.org/wiki/MonoDevelop).
