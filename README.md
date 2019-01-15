@@ -10,7 +10,7 @@ $xbuild <project_name>.csproj
 ```
 
 ## Running Programs
-To run an executable file, type
+To run an executable file, type:
 ```bash
 $mono <project_name>.exe
 ```
