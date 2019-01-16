@@ -16,6 +16,9 @@ namespace example02
              * can be called without instantiating an object.
              */
             book1.PrintMe();
+
+            int[] arr = { 1, 4, 12, 0, 4 };
+            Console.WriteLine("Should be 5? Is {0}!", arr.Length);
         }
     }
 }
